@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "2A09FB74-7EE7-48C1-B37F-83FF4DC3E4A7",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "RecipeListDataTests",
+        "name" : "RecipeListDataTests"
+      }
+    }
+  ],
+  "version" : 1
+}
