@@ -25,8 +25,11 @@ figuring out how to build a cache.
 
 ### Trade-offs and Decisions: Did you make any significant trade-offs in your approach?
 
-I used SwiftData for caching images to get some more practice utilizing SwiftData. I believe
-that SwiftData wasn't necessarily intended for storing images so their may be better solutions.
+I used SwiftData for caching images to get some more practice using SwiftData. While SwiftData wasn't necessarily intended 
+for storing images, I utilized the `.externalStorage` attribute, which stores the image separately from the SQLite table in a 
+file -- and then SwiftData references the file. 
+
+Another solution could be building a cache that writes to a file directly writing using FileManager.
 
 ### Weakest Part of the Project: What do you think is the weakest part of your project?
 
